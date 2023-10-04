@@ -10,15 +10,16 @@ const HeaderContainer = styled.div<{ scrollDirection: string }>`
   left: 0;
   right: 0;
   box-shadow: 0px 0px 15px 0px;
-  /* width: 100vw; */
-  max-width: 1300px;
+  width: 100vw;
+  height: 5vh;
+  /* max-width: 1300px; */
   margin: 0 auto;
   opacity: ${(props) => (props.scrollDirection === 'up' ? 100 : 0)};
 `;
 
 const Logo = styled.img`
   width: 5%;
-  height: 5%;
+  height: 5vh;
 `;
 
 const Header: FC = () => {

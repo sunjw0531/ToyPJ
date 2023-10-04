@@ -1,10 +1,23 @@
 import { FC } from 'react';
 import styled from 'styled-components';
+import Panel from '../components/Panel';
 
-const MainContainer = styled.div``;
+const MainContainer = styled.div`
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  max-width: 1300px;
+  margin: 0 auto;
+  margin-top: 80px;
+`;
 
 const Main: FC = () => {
-  return <div style={{ height: '200vh', marginTop: '80px' }}>ㅁㄴㅇㄹ</div>;
+  return (
+    <MainContainer>
+      <Panel />
+      <div>ㅁㄴㅇㄹ</div>
+    </MainContainer>
+  );
 };
 
 export default Main;

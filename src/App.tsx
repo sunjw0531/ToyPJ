@@ -3,7 +3,7 @@ import ReactDOM from 'react-dom/client';
 import { BrowserRouter, Route, Routes } from 'react-router-dom';
 import Main from './pages/Main';
 import Login from './routes/login';
-import Header from './Header';
+import Header from './components/Header';
 
 const App = (): JSX.Element => {
   return (
