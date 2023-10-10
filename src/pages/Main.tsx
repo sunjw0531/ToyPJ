@@ -1,6 +1,7 @@
 import { FC } from 'react';
 import styled from 'styled-components';
 import Panel from '../components/Panel';
+import Login from '../components/Login';
 
 const MainContainer = styled.div`
   display: flex;
@@ -15,6 +16,7 @@ const Main: FC = () => {
   return (
     <MainContainer>
       <Panel />
+      <Login />
       <div>ㅁㄴㅇㄹ</div>
     </MainContainer>
   );
